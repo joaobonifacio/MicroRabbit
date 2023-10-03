@@ -166,7 +166,6 @@ namespace MicroRabbit.Infra.Bus
 
                         if (eventType != null)
                         {
-
                             var @event = JsonConvert.DeserializeObject(message, eventType);
 
                             var concreteType = typeof(IEventHandler<>).MakeGenericType(eventType);
