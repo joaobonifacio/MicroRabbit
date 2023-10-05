@@ -2,13 +2,11 @@
 {
     public abstract class Event
     {
-        public DateTime TimeSatmp { set; protected get; }
+        public DateTime TimeStamp { set; protected get; }
 
         protected Event()
         {
-            TimeSatmp = DateTime.Now;
+            TimeStamp = DateTime.Now;
         }
-
-
     }
 }

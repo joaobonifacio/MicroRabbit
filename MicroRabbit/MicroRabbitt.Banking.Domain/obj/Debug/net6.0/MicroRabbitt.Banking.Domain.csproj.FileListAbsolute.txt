@@ -10,3 +10,6 @@ D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banki
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\refint\MicroRabbitt.Banking.Domain.dll
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.pdb
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\ref\MicroRabbitt.Banking.Domain.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\bin\Debug\net6.0\MicroRabbit.Domain.Core.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\bin\Debug\net6.0\MicroRabbit.Domain.Core.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.csproj.CopyComplete

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Yuq4NDlzelofAI6bqJUdY/PoDOwzYXa1Nu5r4x4TshmUc/wopO/SZGv9wlPHAw5UyBCUQ06XN3+jULnv/5fc+w==",
+  "dgSpecHash": "oJS0NQgmDeWxZysuo1nt6BOr+X1nKAJsw7Pcbft03BQhNnyfYKTtc2S1h4Jx7Wo/uU7nVsG8SqldOsEnvMam7w==",
   "success": true,
   "projectFilePath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbit.Infra.IoC\\MicroRabbit.Infra.IoC.csproj",
   "expectedPackageFiles": [

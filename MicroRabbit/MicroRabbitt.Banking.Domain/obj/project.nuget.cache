@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YlzkTrfe0OVImPJRgSopEHBwR9glW/NEU/rrfTVmCJ/tjreUnybOk6LKSzExkY975JVamECoYX+vBhDCicgJ1A==",
+  "dgSpecHash": "w3DDCWjjUXTz+eFlcRbniXqzQ6BBxJXS2+HqJK7DTmLHZ39BxC0Lo9chVJRlnw8OEgvAJfbYE5ORSeDGeHS3cQ==",
   "success": true,
   "projectFilePath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nb27113\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\nb27113\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\nb27113\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

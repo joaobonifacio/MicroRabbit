@@ -15,3 +15,5 @@ D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.bankin
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.banking.Data\obj\Debug\net6.0\MicroRabbit.Banking.Data.pdb
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.banking.Data\obj\Debug\net6.0\MicroRabbit.Banking.Data.genruntimeconfig.cache
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.banking.Data\obj\Debug\net6.0\ref\MicroRabbit.Banking.Data.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.banking.Data\bin\Debug\net6.0\MicroRabbit.Domain.Core.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.banking.Data\bin\Debug\net6.0\MicroRabbit.Domain.Core.pdb

@@ -1,9 +1,12 @@
+using MediatR;
 using MicroRabbit.Banking.Application.Interfaces;
 using MicroRabbit.Banking.Application.Services;
 using MicroRabbit.Banking.Data.Context;
 using MicroRabbit.Banking.Data.Repository;
 using MicroRabbit.Domain.Core.Bus;
 using MicroRabbit.Infra.Bus;
+using MicroRabbitt.Banking.Domain.CommandHandlers;
+using MicroRabbitt.Banking.Domain.Commands;
 using MicroRabbitt.Banking.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -32,12 +35,18 @@ builder.Services.AddSwaggerGen(opt =>
 
 builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblyContaining<Program>());
 
-// Add services to the container.
 //builder.Services.AddRazorPages();
 
+//DEPENDECY CONTAINER
+// Add services to the container.
+
+//Domain Bus
 builder.Services.AddTransient<IEventBus, RabbitMQBus>();
 
-//Application Layer / services
+//Domain Banking Commands
+builder.Services.AddTransient<IRequestHandler<CreateTransferCommand, bool>, TransferCommandHandler>();
+
+//Application Services
 builder.Services.AddScoped<IAccountService, AccountService>();
 
 //Data Layer
