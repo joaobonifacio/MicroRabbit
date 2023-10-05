@@ -1,0 +1,6 @@
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Data\bin\Debug\MicroRabbit.Transfer.Data.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Data\bin\Debug\MicroRabbit.Transfer.Data.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Data\obj\Debug\MicroRabbit.Transfer.Data.csproj.AssemblyReference.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Data\obj\Debug\MicroRabbit.Transfer.Data.csproj.CoreCompileInputs.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Data\obj\Debug\MicroRabbit.Transfer.Data.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Data\obj\Debug\MicroRabbit.Transfer.Data.pdb
