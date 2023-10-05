@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MicroRabbit.Banking.Application/1.0.0": {
+        "dependencies": {
+          "MicroRabbitt.Banking.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MicroRabbit.Banking.Application.dll": {}
+        }
+      },
+      "MicroRabbitt.Banking.Domain/1.0.0": {
+        "runtime": {
+          "MicroRabbitt.Banking.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MicroRabbit.Banking.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MicroRabbitt.Banking.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

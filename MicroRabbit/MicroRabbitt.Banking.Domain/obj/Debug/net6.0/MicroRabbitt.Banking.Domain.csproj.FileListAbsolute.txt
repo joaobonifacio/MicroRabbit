@@ -1,0 +1,12 @@
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\bin\Debug\net6.0\MicroRabbitt.Banking.Domain.deps.json
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\bin\Debug\net6.0\MicroRabbitt.Banking.Domain.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\bin\Debug\net6.0\MicroRabbitt.Banking.Domain.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.csproj.AssemblyReference.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.AssemblyInfoInputs.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.AssemblyInfo.cs
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.csproj.CoreCompileInputs.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\refint\MicroRabbitt.Banking.Domain.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\MicroRabbitt.Banking.Domain.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbitt.Banking.Domain\obj\Debug\net6.0\ref\MicroRabbitt.Banking.Domain.dll

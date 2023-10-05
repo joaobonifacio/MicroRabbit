@@ -1,7 +1,48 @@
+using MicroRabbit.Banking.Application.Interfaces;
+using MicroRabbit.Banking.Application.Services;
+using MicroRabbit.Banking.Data.Context;
+using MicroRabbit.Banking.Data.Repository;
+using MicroRabbit.Domain.Core.Bus;
+using MicroRabbit.Infra.Bus;
+using MicroRabbitt.Banking.Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore;
+using System.Reflection;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
+
+//Add db context
+builder.Services.AddDbContext<BankingDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("BankingDbConnection"));
+});
+
+builder.Services.AddSwaggerGen(opt =>
+{
+    opt.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Banking Microservice",
+        Version = "v1",
+    });
+});
+
+builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblyContaining<Program>());
+
 // Add services to the container.
-builder.Services.AddRazorPages();
+//builder.Services.AddRazorPages();
+
+builder.Services.AddTransient<IEventBus, RabbitMQBus>();
+
+//Application Layer / services
+builder.Services.AddScoped<IAccountService, AccountService>();
+
+//Data Layer
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+//builder.Services.AddTransient<BankingDbContext>();
 
 var app = builder.Build();
 
@@ -13,13 +54,21 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Banking Microservice v1");
+});
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
+//app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapRazorPages();
+app.MapControllers();
+
+//app.MapRazorPages();
 
 app.Run();

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MicroRabbitt.Banking.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MicroRabbitt.Banking.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MicroRabbitt.Banking.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MicroRabbitt.Banking.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MicroRabbitt.Banking.Domain/MicroRabbitt.Banking.Domain.csproj",
+      "msbuildProject": "../MicroRabbitt.Banking.Domain/MicroRabbitt.Banking.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MicroRabbitt.Banking.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\nb27113\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj": {
+              "projectPath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

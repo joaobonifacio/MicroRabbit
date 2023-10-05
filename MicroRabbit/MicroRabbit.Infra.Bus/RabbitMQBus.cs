@@ -15,7 +15,7 @@ namespace MicroRabbit.Infra.Bus
         private readonly Dictionary<string, List<Type>> handlers;
         private readonly List<Type> eventTypes;
 
-        public RabbitMQBus(IMediator mediator) 
+        public RabbitMQBus(IMediator mediator)
         {
             _mediator = mediator;
             handlers = new Dictionary<string, List<Type>>();
@@ -33,10 +33,10 @@ namespace MicroRabbit.Infra.Bus
             var factory = new ConnectionFactory() { HostName = "localhost" };
 
             //Open connection
-            using (var connection = factory.CreateConnection()) 
+            using (var connection = factory.CreateConnection())
             {
                 //get a channel open to create queue and publish message
-                using (var channel = connection.CreateModel()) 
+                using (var channel = connection.CreateModel())
                 {
                     var eventName = @event.GetType().Name;
 
@@ -65,7 +65,7 @@ namespace MicroRabbit.Infra.Bus
             //List<Type> eventTypes é uma lista de Event de vários tipos
 
             //Se o event do tipo T n existir em eventTypes = new List<Type>() -> adiciona-o à lista de Event eventTypes
-            if (!eventTypes.Contains(typeof(T))) 
+            if (!eventTypes.Contains(typeof(T)))
             {
                 eventTypes.Add(typeof(T));
             }
@@ -74,15 +74,15 @@ namespace MicroRabbit.Infra.Bus
 
             //Se o eventName, que é o nome do Type do Event, não existir em handlers = new Dictionary<string, List<Type>>()
             //-> adiciona-o ao dictionary
-            if (!handlers.ContainsKey(eventName)) 
+            if (!handlers.ContainsKey(eventName))
             {
                 handlers.Add(eventName, new List<Type>());
             }
 
             //Se este event tiver um handler de um tipo que já existe, lança excepção
-            if(handlers[eventName].Any(s=>s.GetType() == handlerType)) 
+            if (handlers[eventName].Any(s => s.GetType() == handlerType))
             {
-                throw new ArgumentException($"Handler type { handlerType.Name } already is registered" +
+                throw new ArgumentException($"Handler type {handlerType.Name} already is registered" +
                     $"for '{eventName}'", nameof(handlerType));
             }
 
@@ -95,8 +95,8 @@ namespace MicroRabbit.Infra.Bus
         private void StartBasicConsume<T>() where T : Event
         {
             //Criar connection factory
-            var factory = new ConnectionFactory() 
-            { 
+            var factory = new ConnectionFactory()
+            {
                 HostName = "localhost",
                 DispatchConsumersAsync = true,
             };
@@ -134,33 +134,33 @@ namespace MicroRabbit.Infra.Bus
             var message = Encoding.UTF8.GetString(eventArgs.Body.ToArray());
 
             //Temos de processar o event, fazer o kick-off do event handler
-            try 
-            { 
+            try
+            {
                 //Este process event sabe q handler está subscripto a este tipo de event
                 await ProcessEvent(eventName, message).ConfigureAwait(false);
             }
             catch (Exception e)
-            { 
+            {
             }
         }
 
         private async Task ProcessEvent(string eventName, string message)
         {
             //Vamos ver no dicionário se contém a key eventName (que é o type eo event)
-            if (handlers.ContainsKey(eventName)) 
+            if (handlers.ContainsKey(eventName))
             {
                 //Se tivemos extraímos do dictionary uma lista de <Type> a partir da key
                 var subscriptions = handlers[eventName];
 
-                foreach (var subscription in subscriptions) 
+                foreach (var subscription in subscriptions)
                 {
                     var handler = Activator.CreateInstance(subscription);
 
-                    if (handler == null) 
+                    if (handler == null)
                     {
                         continue;
                     }
-                    else 
+                    else
                     {
                         var eventType = eventTypes.SingleOrDefault(t => t.Name == eventName);
 
