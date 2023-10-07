@@ -1,7 +1,86 @@
+using MediatR;
+using MicroRabbit.Banking.Application.Interfaces;
+using MicroRabbit.Banking.Data.Context;
+using MicroRabbit.Banking.Data.Repository;
+using MicroRabbit.Domain.Core.Bus;
+using MicroRabbit.Infra.Bus;
+using MicroRabbit.Transfer.Application.Interfaces;
+using MicroRabbit.Transfer.Application.Services;
+using MicroRabbit.Transfer.Data.Context;
+using MicroRabbit.Transfer.Data.Repository;
+using MicroRabbit.Transfer.Domain.EventHandlers;
+using MicroRabbit.Transfer.Domain.Interfaces;
+using MicroRabbitt.Banking.Domain.CommandHandlers;
+using MicroRabbitt.Banking.Domain.Commands;
+using MicroRabbitt.Banking.Domain.Events;
+using MicroRabbitt.Banking.Domain.Interfaces;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
+
+
+//Add BANKING db context
+builder.Services.AddDbContext<BankingDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("BankingDbConnection"));
+});
+
+//Add TRANSFER db context
+builder.Services.AddDbContext<TransferDbContext>(opt =>
+{
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("TransferDbConnection"));
+});
+
+builder.Services.AddSwaggerGen(opt =>
+{
+    opt.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Transfer Microservice",
+        Version = "v1",
+    });
+});
+
+builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblyContaining<Program>());
+
 // Add services to the container.
-builder.Services.AddRazorPages();
+//builder.Services.AddRazorPages();
+
+//DEPENDECY CONTAINER
+// Add services to the container.
+
+//Domain Bus
+//builder.Services.AddSingleton<IEventBus, RabbitMQBus>();
+builder.Services.AddSingleton<IEventBus, RabbitMQBus>(sp =>
+{
+    var scopeFactory = sp.GetRequiredService<IServiceScopeFactory>();
+    return new RabbitMQBus(sp.GetService<IMediator>(), scopeFactory);
+});
+
+//Subscriptions
+builder.Services.AddTransient<TransferEventHandler>();
+
+//Domain TRANSFER Commands
+builder.Services.AddTransient<IEventHandler<MicroRabbitt.Transfer.Domain.Events.TransferCreatedEvent>, TransferEventHandler>();
+
+//Domain Banking Commands
+builder.Services.AddTransient<IRequestHandler<CreateTransferCommand, bool>, TransferCommandHandler>();
+
+
+//Application Services
+builder.Services.AddTransient<IAccountService, MicroRabbit.Banking.Application.Services.AccountService>();
+//Data Layer
+builder.Services.AddTransient<IAccountRepository, AccountRepository>();
+
+//AQUI OS DE TRANSFER
+
+//Application Services
+builder.Services.AddScoped<ITransferService, TransferService>();
+
+//Data Respository Layer
+builder.Services.AddScoped<ITransferRepository, TransferRepository>();
 
 var app = builder.Build();
 
@@ -13,13 +92,29 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Transfer Microservice v1");
+});
+
+ConfigureEventBus(app);
+
+void ConfigureEventBus(IApplicationBuilder app)
+{
+    var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+
+    eventBus.Subscribe<MicroRabbitt.Transfer.Domain.Events.TransferCreatedEvent, TransferEventHandler>();
+}
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
+//app.UseRouting();
 
 app.UseAuthorization();
+app.MapControllers();
 
-app.MapRazorPages();
+//app.MapRazorPages();
 
 app.Run();

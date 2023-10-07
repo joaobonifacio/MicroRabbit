@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MicroRabbitt.Banking.Domain\MicroRabbitt.Banking.Domain.csproj" />
+    <ProjectReference Include="..\MicroRabbitt.Banking.Domain\MicroRabbit.Banking.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y8sLY1XK/ce39aFJr5RPYbzDLVvfbucGRjpGKAVt+HcShmD+L26O5Fkd/+d8waGkw7k4H7nUz3AsuDgw91owQA==",
+  "success": true,
+  "projectFilePath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbit.Transfer.Application2\\MicroRabbit.Transfer.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nb27113\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\nb27113\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\nb27113\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

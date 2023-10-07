@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w3DDCWjjUXTz+eFlcRbniXqzQ6BBxJXS2+HqJK7DTmLHZ39BxC0Lo9chVJRlnw8OEgvAJfbYE5ORSeDGeHS3cQ==",
+  "dgSpecHash": "sAjrGIqlHZq6QzmhR5GM/+io8vQ1EMEyuwPUZ2opF1vU6QPqg1eP6zNlMiePWVW+qku8D+j5Y6y+qG/m4M7ZKw==",
   "success": true,
-  "projectFilePath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj",
+  "projectFilePath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbit.Banking.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nb27113\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\nb27113\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

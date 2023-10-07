@@ -1,0 +1,12 @@
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\bin\Debug\net6.0\MicroRabbit.Transfer.Domain2.deps.json
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\bin\Debug\net6.0\MicroRabbit.Transfer.Domain2.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\bin\Debug\net6.0\MicroRabbit.Transfer.Domain2.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\MicroRabbit.Transfer.Domain2.csproj.AssemblyReference.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\MicroRabbit.Transfer.Domain2.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\MicroRabbit.Transfer.Domain2.AssemblyInfoInputs.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\MicroRabbit.Transfer.Domain2.AssemblyInfo.cs
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\MicroRabbit.Transfer.Domain2.csproj.CoreCompileInputs.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\MicroRabbit.Transfer.Domain2.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\refint\MicroRabbit.Transfer.Domain2.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\MicroRabbit.Transfer.Domain2.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Domain2\obj\Debug\net6.0\ref\MicroRabbit.Transfer.Domain2.dll

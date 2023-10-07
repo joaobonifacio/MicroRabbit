@@ -1,0 +1,17 @@
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\bin\Debug\net6.0\MicroRabbit.Transfer.Application.deps.json
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\bin\Debug\net6.0\MicroRabbit.Transfer.Application.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\bin\Debug\net6.0\MicroRabbit.Transfer.Application.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\bin\Debug\net6.0\MicroRabbit.Domain.Core.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\bin\Debug\net6.0\MicroRabbit.Transfer.Domain.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\bin\Debug\net6.0\MicroRabbit.Domain.Core.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\bin\Debug\net6.0\MicroRabbit.Transfer.Domain.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\MicroRabbit.Transfer.Application.csproj.AssemblyReference.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\MicroRabbit.Transfer.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\MicroRabbit.Transfer.Application.AssemblyInfoInputs.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\MicroRabbit.Transfer.Application.AssemblyInfo.cs
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\MicroRabbit.Transfer.Application.csproj.CoreCompileInputs.cache
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\MicroRabbit.Transfer.Application.csproj.CopyComplete
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\MicroRabbit.Transfer.Application.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\refint\MicroRabbit.Transfer.Application.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\MicroRabbit.Transfer.Application.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Transfer.Application2\obj\Debug\net6.0\ref\MicroRabbit.Transfer.Application.dll

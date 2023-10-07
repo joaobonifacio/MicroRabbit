@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TFWMTYPyTcqnI/fkoY9SQ6Eqfj0iNfVvhyzc4XXmnhx7nqpTYTnALBvzg33kyilg9Z/qhcTgo3YwW/4NbsKuGw==",
+  "dgSpecHash": "fG3W7fk8aJxa5HkHac9tYvadAsXjqQ8X/mjftFdiM7/p7i51aWq5BmUTcJkluxzupM40Gg8BBSJnusNqQFiMHg==",
   "success": true,
   "projectFilePath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbit.banking.Data\\MicroRabbit.Banking.Data.csproj",
   "expectedPackageFiles": [

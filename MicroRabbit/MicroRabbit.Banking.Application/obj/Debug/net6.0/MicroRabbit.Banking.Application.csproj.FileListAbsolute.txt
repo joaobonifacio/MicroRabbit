@@ -1,8 +1,10 @@
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Banking.Application.deps.json
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Banking.Application.dll
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Banking.Application.pdb
-D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbitt.Banking.Domain.dll
-D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbitt.Banking.Domain.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Banking.Domain.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Domain.Core.dll
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Banking.Domain.pdb
+D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Domain.Core.pdb
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\obj\Debug\net6.0\MicroRabbit.Banking.Application.csproj.AssemblyReference.cache
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\obj\Debug\net6.0\MicroRabbit.Banking.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\obj\Debug\net6.0\MicroRabbit.Banking.Application.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Bankin
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\obj\Debug\net6.0\refint\MicroRabbit.Banking.Application.dll
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\obj\Debug\net6.0\MicroRabbit.Banking.Application.pdb
 D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\obj\Debug\net6.0\ref\MicroRabbit.Banking.Application.dll
-D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Domain.Core.dll
-D:\MyCode\rabbitMQ .NET Microservices\MicroRabbit\MicroRabbit\MicroRabbit.Banking.Application\bin\Debug\net6.0\MicroRabbit.Domain.Core.pdb

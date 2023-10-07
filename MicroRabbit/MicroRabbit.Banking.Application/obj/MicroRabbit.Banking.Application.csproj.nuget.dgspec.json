@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj": {
-                "projectPath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj"
+              "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbit.Banking.Domain.csproj": {
+                "projectPath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbit.Banking.Domain.csproj"
               }
             }
           }
@@ -124,12 +124,12 @@
         }
       }
     },
-    "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj": {
+    "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbit.Banking.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj",
-        "projectName": "MicroRabbitt.Banking.Domain",
-        "projectPath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbitt.Banking.Domain.csproj",
+        "projectUniqueName": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbit.Banking.Domain.csproj",
+        "projectName": "MicroRabbit.Banking.Domain",
+        "projectPath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\MicroRabbit.Banking.Domain.csproj",
         "packagesPath": "C:\\Users\\nb27113\\.nuget\\packages\\",
         "outputPath": "D:\\MyCode\\rabbitMQ .NET Microservices\\MicroRabbit\\MicroRabbit\\MicroRabbitt.Banking.Domain\\obj\\",
         "projectStyle": "PackageReference",
